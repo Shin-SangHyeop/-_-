@@ -5,7 +5,7 @@ import java.util.*;
 public class HelloWorld {
 
     public static void main(String[] args) {
-	//요거 보고 풀었음
+	//요거 보고 풀었음 나중에 다시 풀어보고 재 커밋 예정
         //Scanner sc = new Scanner(System.in);
         int count = 0;
         //int h = sc.nextInt();
