@@ -1,0 +1,30 @@
+package domain;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        int N = 5;
+        int[][] arr = new int[N][N];
+        String s = "R R R U D D";
+        String[] arguArr = s.split(" ");
+        String answer = "";
+        int x = 1;
+        int y = 1;
+        
+        for(int i=0; i<arguArr.length; i++){
+            if(arguArr[i].equals("R") && y < N){
+                y++;
+            }else if(arguArr[i].equals("L") && y>1){
+                y--;
+            }else if(arguArr[i].equals("U") && x>1){
+                x--;
+            }else if(arguArr[i].equals("D") && x<N){
+                x++;
+            }
+        }
+        
+        System.out.print(x+ " " +y);
+        
+    }
+
+}
