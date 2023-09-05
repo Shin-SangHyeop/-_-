@@ -101,9 +101,10 @@ public class BFS {
                 //벽인 경우 무시
                 if(graph[nx][ny] == 0) continue;
 
+                //해당 노드를 처음 방문하는 경우에만 +1 표시
                 if(graph[nx][ny] == 1){
                     graph[nx][ny] = graph[x][y] + 1;
-                    //ystem.out.println(graph[nx][ny]);
+                    //System.out.println(graph[nx][ny]);
                     q.offer(new Node(nx,ny));
                 }
             }
