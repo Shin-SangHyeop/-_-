@@ -10,7 +10,7 @@ class Solution {
             temp[i] = (temp[i-2] + temp[i-1]) % 1234567;
         }
         
-        answer = temp[n] % 1234567;
+        answer = temp[n];
         
         return answer;
     }
