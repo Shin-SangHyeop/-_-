@@ -19,7 +19,7 @@ class Solution {
     }
 }
 
-//2번째 풀이
+//2번 풀이
 import java.lang.*;
 
 class Solution {
