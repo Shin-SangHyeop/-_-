@@ -1,4 +1,4 @@
-//1번 풀
+//1번 풀이
 import java.util.*;
 
 class Solution {
