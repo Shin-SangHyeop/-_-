@@ -1,3 +1,25 @@
+//1번 풀
+import java.util.*;
+
+class Solution {
+    public String solution(String s) {
+        String answer = "";
+        String[] answerArr = s.split(" ");
+        List<Integer> answerList = new ArrayList<>();
+        
+        for(int i=0; i<answerArr.length; i++){
+            answerList.add(Integer.valueOf(answerArr[i]));
+        }
+        
+        Collections.sort(answerList);
+        
+        answer = answerList.get(0) + " " + answerList.get(answerList.size()-1);
+        
+        return answer;
+    }
+}
+
+//2번째 풀이
 import java.lang.*;
 
 class Solution {
